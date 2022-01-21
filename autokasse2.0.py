@@ -71,7 +71,8 @@ def search_bestand(kasse, all_konto, kasse_konto, kasse_bestand, kasse_bestand_f
         
 def main():
     # Dateipfad definieren
-    path = 'C:\\Users\\phili\\OneDrive\\Desktop\\AutoKasse\\'
+    #path = 'Z:\\AutoKasse\\' old file path
+    path = 'G:\\Geteilte Ablagen\\AV Agricola Aachen\\AV Aemter\\AutoKasse\\'
     
     # Daten einlesen
     einlesen('avk', path+'avk.csv', avk_konto, avk_name, avk_bestand)
